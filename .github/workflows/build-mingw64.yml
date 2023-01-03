@@ -13,9 +13,9 @@ jobs:
       run:
         shell: msys2 {0}
     env:
-      libraryName: jpeg
-      installationPath: jpeg-installation
-      mingwTargetZip: jpeg-${{ github.ref_name }}-mingw64-x86_64-posix-seh-rev0-8.1.0.zip
+      libraryName: libjpeg
+      installationPath: libjpeg-installation
+      mingwTargetZip: libjpeg-${{ github.ref_name }}-mingw64-x86_64-posix-seh-rev0-8.1.0.zip
     steps:
       # version is "9e"
       - shell: cmd
